@@ -4,9 +4,9 @@
  * Build Helpers
  *********************************/
 /* give each element a border */
-* {
+/* * {
     border: 1px solid mediumvioletred;
-}
+} */
 
 /* shrink images for placement */
 img {
@@ -97,9 +97,25 @@ li {
 
 
 /*********************************
-* Main
-*********************************/
-
-/*********************************
-* Footer
-*********************************/              
+ * Main
+ *********************************/
+ main {
+    width: 85%;
+    flex-basis: 85%;
+   }                  
+  
+   div[class$='row']  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+  }
+ .top-row img {
+    width: 100%;
+ }
+ .middle-row img {
+   width: 49%;
+ }
+ .bottom-row img {
+   width: 32%;
+ }                                  
